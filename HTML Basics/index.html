@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+    <!--This is the comment line and it helps us to describe & give info about whatever we did.-->
+       
+    <!--It allows us 
+        to
+        use
+        multiple 
+        comment line
+        as well.
+    -->
+<html lang="en">
+
+    <!-- The lang attribute of the <html> tag declares the language of the Web page -->
+
+    <head>
+
+        <!--<head>: It contains meta information about HTML page.-->
+        <title>Title of the page will locate in there</title>
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="description" content="Free Web tutorials">
+
+        <!--<link>: We use "link" tag to associate seperated documents like CSS style file of the project. -->
+        <link href="css/style.css" rel="stylesheet"/>
+    
+    </head>
+
+    <body>
+        <div class="heading-tags">
+            <h1>This is heading 1</h1>
+            <h2>This is heading 2</h2>
+            <h3>This is heading 3</h3>
+            <h4>This is heading 4</h4>
+            <h5>This is heading 5</h5>
+            <h6>This is heading 6</h6>
+        </div>
+
+        <!--<a>: The link's destination is specified in the href attribute. -->
+        <a href="https://berkeyagizsevim.com" target="">Click Here</a>
+        <a href="https://berkeyagizsevim.com" target="_blank">Click Here</a>
+
+        <!--<br>: It defines a line break. -->
+        <br>
+
+        <!--What is attribute? 
+        *All HTML elements can have attributes
+        *Attributes provide additional information about elements
+        *Attributes are always specified in the start tag
+        *Attributes usually come in name/value pairs like: name="value" -->
+
+        <!--<img>: HTML images are defined with the <img> tag. -->
+        <!--We can combine this tag with giving "width, height" attributes -->
+
+        <img src="img/famous-people-photo.png" width="400px" height="400px" alt="The man who got the Oscar in 2008"/>
+
+        <!--Relative or Absolute Path (./ - folder-name/ or /) -->
+        <!-- .// -> goes one directory up 
+              /  -> starts from base url
+
+        <img src="picture.jpg">	The "picture.jpg" file is located in the same folder as the current page
+        <img src="images/picture.jpg">	The "picture.jpg" file is located in the images folder in the current folder
+        <img src="/images/picture.jpg">	The "picture.jpg" file is located in the images folder at the root of the current web
+        <img src="../picture.jpg">	The "picture.jpg" file is located in the folder one level up from the current folder     
+        -->
+        <br>    
+        <!--<hr>: It basically shortest form of horizontal line, it divides HTML page.-->
+    
+        
+        <h1>Welcome to the Jungle.</h1>
+        <hr>
+        <p>In this chapter, we will learn how to use hr tag. </p> 
+
+
+        <!--Block level elements - these elements always takes up the full width available.-->
+        <!--With the help of CTRL - Shift - C (inspect element) you can also check element types using pointer which is located top right of the page . -->
+        <div> Block level element 1</div>
+        <p> Is it block level element or not? </p>
+        <h1> Block lvl or not </h1>
+
+        <!--Inline elements does not start on a new line.-->
+        <span> Hello world.</span>
+
+
+        <!--<div> This tag used as a container for other HTML elements-->
+
+        <div>
+            <p><a href="#" target="_blank "><span style="background-color: blue; color:white; font-size:18px;">Güneş</span></a> yerinde her şey yolunda..</p>
+        </div>
+
+        <!--Class (.) and Id(#)-->
+
+        <h2 class="city">London</h2>
+        <p>London is the capital of England.</p>
+
+        <h2 class="city">Paris</h2>
+        <p>Paris is the capital of France.</p>
+
+        <h2 class="city">Tokyo</h2>
+        <p>Tokyo is the capital of Japan.</p>
+
+        <!--With the help of class, we can reach and manipulate city class just using .city{} class name.-->
+        <!--We can also define multiple classes at the same time. -->
+
+        <h2 class="city main">London</h2>
+
+        <!--The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
+            The id attribute is used to point to a specific style declaration in a style sheet. -->
+
+        <h1 id="myHeader">My Header</h1>
+
+
+
+
+    </body>
+</html>
